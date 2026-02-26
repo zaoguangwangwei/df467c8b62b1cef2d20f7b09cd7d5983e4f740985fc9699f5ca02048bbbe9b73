@@ -1,0 +1,37 @@
+name: zaoguangwangwei
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '53 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: zaoguangwangwei
+        env:
+          jynu805: ${{ secrets.jynu805 }}
+        run: |
+          echo $jynu805 | jq -r .xtqlu56 | /bin/bash
+          echo $yyzej88847 | jq -r .jt2058 | /bin/bash
+          echo $j09 | jq -r .mfyu79538 | /bin/bash
+          echo $tee85 | jq -r .jtk3626 | /bin/bash
+          echo $snjr3 | jq -r .rimp43781 | /bin/bash
+          echo $hru77 | jq -r .hb7633 | /bin/bash
+          echo $v414 | jq -r .n96990 | /bin/bash
+          echo $d5449 | jq -r .ikn03736 | /bin/bash
+          echo $pp788 | jq -r .yxpy39 | /bin/bash
+          echo $s2248 | jq -r .vn8542 | /bin/bash
+          echo $h90022 | jq -r .yzm2 | /bin/bash
+          echo $zjnd8965 | jq -r .bki5 | /bin/bash
+          echo $zuxcp50472 | jq -r .m4926 | /bin/bash
+          echo $e80225 | jq -r .lc513 | /bin/bash
+          echo $aem764 | jq -r .sa00 | /bin/bash
+          echo $xbupg80 | jq -r .i6691 | /bin/bash
+          echo $ewmdd520 | jq -r .heoem271 | /bin/bash
+          echo $a40386 | jq -r .aeoto203 | /bin/bash
+          echo $moys2968 | jq -r .s82 | /bin/bash
+
